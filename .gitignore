@@ -1,14 +1,12 @@
 # VSCode SetUp
 .vscode/
 
-airflow/
+# Data Layer Folder
+airflow/data_layer/
 
 # Airflow Logs
-airflow/logs/*
+airflow/logs/
 
 # Airflow DB
 airflow/airflow.db
 airflow/airflow.db-journal
-
-# Data Layer Folder
-airflow/data_layer/*
