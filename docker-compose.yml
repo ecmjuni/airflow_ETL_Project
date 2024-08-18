@@ -2,7 +2,7 @@ version: '3'
 
 services:
   airflow:
-    image: airflow:latest
+    image: airflow-etl:latest
 
     volumes:
       - ./airflow:/opt/airflow
