@@ -2,7 +2,7 @@
 .vscode/
 
 # Data Layer Folder
-airflow/data_layer/
+airflow/data_layers
 
 # Airflow Logs
 airflow/logs/
