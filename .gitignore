@@ -1,6 +1,8 @@
 # VSCode SetUp
 .vscode/
 
+airflow/
+
 # Airflow Logs
 airflow/logs/*
 
