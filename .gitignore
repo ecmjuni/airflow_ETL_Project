@@ -1,8 +1,12 @@
 # VSCode SetUp
 .vscode/
 
+# Pycache Folder
+airflow/dags/__pycache__/
+airflow/dags/utils/__pycache__/
+
 # Data Layer Folder
-airflow/data_layers
+airflow/data_layers/
 
 # Airflow Logs
 airflow/logs/
