@@ -3,3 +3,6 @@
 
 # Airflow DB
 /airflow/airflow.db
+
+# Data Layer Folder
+/airflow/data_layer
