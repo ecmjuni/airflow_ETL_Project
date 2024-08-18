@@ -1,0 +1,5 @@
+# Airflow Logs
+airflow/logs
+
+# Airflow DB
+airflow/airflow.db

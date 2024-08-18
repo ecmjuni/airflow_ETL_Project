@@ -816,3 +816,45 @@ ModuleNotFoundError: No module named 'utils'
 [2024-08-18T17:33:17.188+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:33:17.188+0000] {dag.py:3211} INFO - Sync 1 DAGs
 [2024-08-18T17:33:17.224+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:33:17.223+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
 [2024-08-18T17:33:17.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 1.037 seconds
+[2024-08-18T17:40:10.995+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:40:10.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/movies_orchestrator.py for tasks to queue
+[2024-08-18T17:40:11.001+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:40:11.000+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:40:11.564+0000] {processor.py:925} INFO - DAG(s) 'movies_orchestration' retrieved from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:40:11.601+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:40:11.600+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-18T17:40:11.634+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:40:11.634+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-18T17:40:11.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 0.795 seconds
+[2024-08-18T17:40:52.445+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:40:52.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/movies_orchestrator.py for tasks to queue
+[2024-08-18T17:40:52.461+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:40:52.460+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:40:54.841+0000] {processor.py:925} INFO - DAG(s) 'movies_orchestration' retrieved from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:40:54.982+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:40:54.981+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-18T17:40:55.026+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:40:55.026+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-18T17:40:55.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 2.796 seconds
+[2024-08-18T17:41:25.630+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:41:25.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/movies_orchestrator.py for tasks to queue
+[2024-08-18T17:41:25.726+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:41:25.726+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:41:26.720+0000] {processor.py:925} INFO - DAG(s) 'movies_orchestration' retrieved from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:41:26.759+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:41:26.758+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-18T17:41:26.812+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:41:26.812+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-18T17:41:27.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 1.466 seconds
+[2024-08-18T17:41:58.018+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:41:58.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/movies_orchestrator.py for tasks to queue
+[2024-08-18T17:41:58.023+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:41:58.022+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:41:58.954+0000] {processor.py:925} INFO - DAG(s) 'movies_orchestration' retrieved from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:41:58.989+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:41:58.989+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-18T17:41:59.028+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:41:59.028+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-18T17:41:59.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 1.280 seconds
+[2024-08-18T17:42:29.996+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:42:29.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/movies_orchestrator.py for tasks to queue
+[2024-08-18T17:42:30.001+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:42:30.001+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:42:30.614+0000] {processor.py:925} INFO - DAG(s) 'movies_orchestration' retrieved from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:42:30.658+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:42:30.657+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-18T17:42:30.690+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:42:30.690+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-18T17:42:30.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 0.964 seconds
+[2024-08-18T17:43:01.361+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:43:01.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/movies_orchestrator.py for tasks to queue
+[2024-08-18T17:43:01.401+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:43:01.400+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:43:03.489+0000] {processor.py:925} INFO - DAG(s) 'movies_orchestration' retrieved from /opt/airflow/dags/movies_orchestrator.py
+[2024-08-18T17:43:03.539+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:43:03.538+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-18T17:43:03.603+0000] {logging_mixin.py:190} INFO - [2024-08-18T17:43:03.602+0000] {dag.py:4138} INFO - Setting next_dagrun for movies_orchestration to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-18T17:43:03.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/movies_orchestrator.py took 2.654 seconds
