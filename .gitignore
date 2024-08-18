@@ -1,5 +1,5 @@
 # Airflow Logs
-airflow/logs
+/airflow/logs
 
 # Airflow DB
-airflow/airflow.db
+/airflow/airflow.db
