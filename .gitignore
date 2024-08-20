@@ -1,6 +1,9 @@
 # VSCode SetUp
 .vscode/
 
+# Python Env
+.venv/
+
 # Pycache Folder
 airflow/dags/__pycache__/
 airflow/dags/utils/__pycache__/
