@@ -6,7 +6,7 @@ airflow/dags/__pycache__/
 airflow/dags/utils/__pycache__/
 
 # Data Layer Folder
-airflow/data_layers/
+airflow/data_layers/*
 
 # Airflow cfg data
 airflow/airflow-webserver.pid
