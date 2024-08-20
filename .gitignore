@@ -15,7 +15,7 @@ airflow/webserver_config.py
 airflow/standalone_admin_password.txt
 
 # Airflow Logs
-airflow/logs/
+airflow/logs/*
 
 # Airflow DB
 airflow/airflow.db
