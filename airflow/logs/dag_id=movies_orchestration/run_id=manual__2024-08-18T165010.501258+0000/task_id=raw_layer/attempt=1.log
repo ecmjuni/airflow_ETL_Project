@@ -1,0 +1,20 @@
+[2024-08-18T16:50:18.609+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-18T16:50:18.638+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: movies_orchestration.raw_layer manual__2024-08-18T16:50:10.501258+00:00 [queued]>
+[2024-08-18T16:50:18.663+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: movies_orchestration.raw_layer manual__2024-08-18T16:50:10.501258+00:00 [queued]>
+[2024-08-18T16:50:18.664+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-18T16:50:18.795+0000] {taskinstance.py:2879} INFO - Executing <Task(PythonOperator): raw_layer> on 2024-08-18 16:50:10.501258+00:00
+[2024-08-18T16:50:18.810+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=370) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-18T16:50:18.810+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'movies_orchestration', 'raw_layer', 'manual__2024-08-18T16:50:10.501258+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/movies_orchestrator.py', '--cfg-path', '/tmp/tmprrzohbve']
+[2024-08-18T16:50:18.812+0000] {standard_task_runner.py:72} INFO - Started process 379 to run task
+[2024-08-18T16:50:18.813+0000] {standard_task_runner.py:105} INFO - Job 18: Subtask raw_layer
+[2024-08-18T16:50:19.014+0000] {task_command.py:467} INFO - Running <TaskInstance: movies_orchestration.raw_layer manual__2024-08-18T16:50:10.501258+00:00 [running]> on host 506f39831d8d
+[2024-08-18T16:50:19.462+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='movies_orchestration' AIRFLOW_CTX_TASK_ID='raw_layer' AIRFLOW_CTX_EXECUTION_DATE='2024-08-18T16:50:10.501258+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-18T16:50:10.501258+00:00'
+[2024-08-18T16:50:19.464+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-18T16:50:19.482+0000] {logging_mixin.py:190} INFO - Start Raw
+[2024-08-18T16:53:31.066+0000] {logging_mixin.py:190} INFO - Ends Raw
+[2024-08-18T16:53:31.067+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-08-18T16:53:31.086+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-18T16:53:31.087+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=movies_orchestration, task_id=raw_layer, run_id=manual__2024-08-18T16:50:10.501258+00:00, execution_date=20240818T165010, start_date=20240818T165018, end_date=20240818T165331
+[2024-08-18T16:53:31.363+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2024-08-18T16:53:31.422+0000] {taskinstance.py:3891} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-18T16:53:31.510+0000] {local_task_job_runner.py:240} INFO - ::endgroup::
